@@ -1,0 +1,57 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "c:/Users/danam/Documents/PlatformIO/Projects/210212-080714-freertos_demo/include",
+                "c:/Users/danam/Documents/PlatformIO/Projects/210212-080714-freertos_demo/src",
+                "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/NMSIS/Include",
+                "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/NMSIS/Core/Include",
+                "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/NMSIS/DSP/Include",
+                "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/NMSIS/NN/Include",
+                "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/SoC/gd32vf103/Common/Include",
+                "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/SoC/gd32vf103/Board/gd32vf103c_longan_nano/Include",
+                "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/SoC/gd32vf103/Common/Include/Usb",
+                "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/OS/FreeRTOS/Source/include",
+                "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/OS/FreeRTOS/Source/portable/GCC",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/danam/Documents/PlatformIO/Projects/210212-080714-freertos_demo/include",
+                    "c:/Users/danam/Documents/PlatformIO/Projects/210212-080714-freertos_demo/src",
+                    "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/NMSIS/Include",
+                    "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/NMSIS/Core/Include",
+                    "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/NMSIS/DSP/Include",
+                    "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/NMSIS/NN/Include",
+                    "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/SoC/gd32vf103/Common/Include",
+                    "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/SoC/gd32vf103/Board/gd32vf103c_longan_nano/Include",
+                    "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/SoC/gd32vf103/Common/Include/Usb",
+                    "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/OS/FreeRTOS/Source/include",
+                    "C:/Users/danam/.platformio/packages/framework-nuclei-sdk/OS/FreeRTOS/Source/portable/GCC",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50100",
+                "DOWNLOAD_MODE=DOWNLOAD_MODE_FLASHXIP",
+                "RTOS_FREERTOS",
+                ""
+            ],
+            "compilerPath": "C:/Users/danam/.platformio/packages/toolchain-riscv-gcc-nuclei/bin/riscv-nuclei-elf-gcc.exe",
+            "compilerArgs": [
+                "-march=rv32imac",
+                "-mabi=ilp32",
+                "-mcmodel=medlow",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

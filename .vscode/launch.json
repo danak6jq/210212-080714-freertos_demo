@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Users/danam/Documents/PlatformIO/Projects/210212-080714-freertos_demo/.pio/build/nuclei-gd32vf103c_longan_nano/firmware.elf",
+            "projectEnvName": "nuclei-gd32vf103c_longan_nano",
+            "toolchainBinDir": "C:/Users/danam/.platformio/packages/toolchain-riscv-gcc-nuclei/bin",
+            "svdPath": "C:/Users/danam/.platformio/platforms/nuclei/misc/svd/GD32VF103.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            },
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Users/danam/Documents/PlatformIO/Projects/210212-080714-freertos_demo/.pio/build/nuclei-gd32vf103c_longan_nano/firmware.elf",
+            "projectEnvName": "nuclei-gd32vf103c_longan_nano",
+            "toolchainBinDir": "C:/Users/danam/.platformio/packages/toolchain-riscv-gcc-nuclei/bin",
+            "svdPath": "C:/Users/danam/.platformio/platforms/nuclei/misc/svd/GD32VF103.svd",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
